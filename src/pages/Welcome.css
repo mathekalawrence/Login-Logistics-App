@@ -64,3 +64,15 @@
   background-color: #218838;
   transform: scale(1.45);
 }
+
+.body {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.c {
+    justify-content: center;
+   /* align-content: center; */
+    align-items: center;
+}
