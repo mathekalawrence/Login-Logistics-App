@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import './Login.css';
 
 function Login() {
     const navigate = useNavigate();
@@ -22,7 +23,7 @@ function Login() {
                 <p>
                     No Account? {" "}
                     <span className="link" onClick={() => navigate("/register")}>
-                        Register
+                        <a href="Register.js">Register</a>
                     </span>
                 </p>
 

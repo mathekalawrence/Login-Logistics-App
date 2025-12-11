@@ -8,7 +8,7 @@ function Register() {
     return(
         <div className="container">
 
-            <button className="back-button" onClick={() => navigate("login")}> ←Back</button>
+            <button className="back-button" onClick={() => navigate("/login")}> ←Back</button>
 
             <h2>Create Account</h2>
 

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #80c921;
+  background-color: #1ccccc;
   min-height: 80px;
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   font-size: 30px;
   color: rgb(52, 12, 163);
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .App-link {
@@ -44,9 +46,11 @@
   font-style: italic;
   color:blueviolet;
   padding-bottom: 50px;
+  align-items: center;
+  text-align: center;
 }
 .start-button {
-  background-color: #61dafb;
+  
   border-radius: 40px;
   width: auto;
   border: none;
@@ -57,6 +61,9 @@
   cursor: pointer;
   transition: 0.3s ease;
   font-size: 16px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 .start-button:hover {
@@ -65,10 +72,11 @@
   transform: scale(1.45);
 }
 
-.body {
+.container {
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #61dafb;
 }
 
 .c {
