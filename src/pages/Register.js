@@ -1,16 +1,16 @@
 import { useNavigate } from "react-router-dom";
-
+import './Login.css';
 
 function Register() {
     const navigate = useNavigate();
 
 
     return(
-        <div className="container">
+        <div className="container-register">
 
             <button className="back-button" onClick={() => navigate("/login")}> ←Back</button>
 
-            <h2>Create Account</h2>
+            <h2 className="login-h2">Create Account</h2>
 
             <input type="text" placeholder="Full Name" className="input" />
             <input type="email" placeholder="Email Address" className="input" />
