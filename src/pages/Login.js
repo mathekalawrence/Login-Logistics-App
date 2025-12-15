@@ -6,10 +6,13 @@ function Login() {
 
     return(
         <div className="container">
+            <header className="login-header">Horizon Global Logistics</header>
 
             <button className="backButton" onClick={()=> navigate("/")}> ←Back</button>
+            <fieldset className="fieldset-login">
 
-            <h2>Login</h2>
+            <h2 className="login-h2">Login into your Account</h2>
+            <hr></hr>
 
             <div className="input">
                 <label>Email Address</label> <br/>
@@ -28,6 +31,8 @@ function Login() {
                 </p>
 
             </div>
+
+        </fieldset>
 
 
         </div>
